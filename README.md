@@ -33,14 +33,14 @@ Wijzig `public/content.json`:
   "endTime": "03:00",
   "location": "Bar Jan Cremer · Kramersplein 6, Gent",
   "status": "scheduled",
-  "youtubeUrl": "https://www.youtube.com/live/gyDuZaHFt8M",
+  "youtubeUrl": "https://www.youtube.com/live/VFnzuxdkMow",
   "ticketUrl": ""
 }
 ```
 
 De locatie en uren van de derde editie komen uit de aangeleverde poster. Vul de volledige YouTube-link of het 11-tekens video-ID in. Uren gebruiken `HH:mm`; een einduur vroeger dan het startuur verwijst naar de volgende dag. De datum stuurt alle datumlabels. Stel de status op `live` zodra de uitzending loopt en op `ended` voor de replay. De website controleert YouTube’s werkelijke broadcaststatus niet automatisch.
 
-Zonder video-ID verschijnt een aankondiging. Met video-ID verschijnt een werkende knop die de externe speler laadt, plus een directe YouTube-link. De livestream van 7 oktober is gekoppeld aan `gyDuZaHFt8M`. Zet embedding aan in YouTube en test de geplande stream op het uiteindelijke domein.
+Zonder video-ID verschijnt een aankondiging. Met video-ID verschijnt een werkende knop die de externe speler laadt, plus een directe YouTube-link. De livestream van 7 oktober is gekoppeld aan `VFnzuxdkMow`. Zet embedding aan in YouTube en test de geplande stream op het uiteindelijke domein.
 
 Vul `brand.instagramUrl` met jullie echte HTTPS-profiel; daarmee verschijnen Instagram-links. `ticketUrl` is gereserveerd voor een latere ticketactie. Een lege contact- of providerlink wordt verborgen.
 

@@ -101,4 +101,6 @@ De navigatie gebruikt Home, Livestream/Replay en Momenten, plus ingevulde Instag
 
 ## Publicatie
 
-GitHub: https://github.com/6ftwardje/clubglemm. Netlify bouwt met `npm run build` en publiceert `dist`, volgens `netlify.toml`, met Node 22. Alleen geoptimaliseerde publieke media worden gepusht; originele Assets en lokale browser-/deploymentgegevens blijven lokaal.
+De website staat op [clubglemm.com](https://clubglemm.com). [GitHub](https://github.com/6ftwardje/clubglemm) is gekoppeld aan [Netlify](https://app.netlify.com/projects/clubglemm): pushes naar `main` starten automatisch een build met `npm run build` en publiceren `dist`, volgens `netlify.toml`, met Node 22. HTTPS is actief; HTTP en www verwijzen naar https://clubglemm.com. Alleen geoptimaliseerde publieke media worden gepusht; originele Assets en lokale browser-/deploymentgegevens blijven lokaal.
+
+DNS blijft bij Combell. De bestaande A-records voor `clubglemm.com` en `www.clubglemm.com` wijzen naar `75.2.60.5`, met TTL 300. De e-mailrecords en nameservers zijn behouden.

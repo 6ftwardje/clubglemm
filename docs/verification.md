@@ -101,3 +101,10 @@ De vervolgbeoordeling scoort alle drie als opgelost: het navigatiecontrast meet 
 - Build en contentcontrole slagen. Browsercontrole op 1440×1000, 390×844 en 320×568: geen overflow, knop blijft bovenaan na scrollen, menulinks en Escape werken, Tab/Shift+Tab blijven begrensd en interne links herstellen bestemmingsfocus. Reduced-motion werkt.
 - Desktop en mobiel samen visueel gecontroleerd: output/playwright/menu-only-1440.png en menu-only-390.png. Detector toont alleen 35 advisories over CSS-maten; geen primaire bevindingen. Dispositie: ship voor deze navbarwijziging.
 - netlify.toml legt npm run build, dist en Node 22 vast. Bronmedia, lokale screenshots, caches en Netlify-authgegevens zijn uitgesloten van Git.
+
+### Productiecontrole
+
+- Gepusht naar 6ftwardje/clubglemm op main; eerste publicatiecommit 9a731c2. Netlify-project clubglemm (84c93016-5b5d-47bd-ad84-29d511dec749) deployt automatisch vanuit deze repo.
+- clubglemm.com en www.clubglemm.com zijn gekoppeld. De web-A-records bij Combell wijzen naar 75.2.60.5 met TTL 300; nameservers, FTP en e-mailrecords zijn behouden. Alle drie Combell-nameservers en resolver 1.1.1.1 geven het nieuwe webadres terug.
+- https://clubglemm.com geeft HTTP 200 met geldig TLS; HTTPS is ook bevestigd in Netlify met een automatisch vernieuwd Let’s Encrypt-certificaat voor beide namen. www en HTTP geven 301 naar https://clubglemm.com/.
+- Productie gebruikt exact de lokaal gecontroleerde JS- en CSS-assets. De publieke contentconfiguratie bevat de derde editie en 9 media-items. De site is in de browser op het eigen domein geladen en visueel bevestigd.

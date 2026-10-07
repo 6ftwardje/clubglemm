@@ -111,8 +111,7 @@ h3 {
 }
 h1,
 h2,
-h3,
-.hero-invitation {
+h3 {
   font-family: var(--font-heading);
 }
 p {
@@ -236,14 +235,6 @@ video {
 }
 .brand-logo.is-playing > img {
   opacity: 0;
-}
-.hero-invitation {
-  font-size: clamp(21px, 2.1vw, 30px);
-  font-weight: 400;
-  line-height: 1.25;
-  letter-spacing: -0.02em;
-  animation: hero-enter 0.8s var(--ease) both;
-  animation-delay: 0.15s;
 }
 .hero-actions {
   margin-top: 28px;
@@ -441,10 +432,6 @@ video {
   margin-top: 20px;
   align-items: center;
 }
-.inline-actions {
-  display: flex;
-  gap: 26px;
-}
 .text-action {
   display: inline-flex;
   gap: 10px;
@@ -465,12 +452,6 @@ video {
 }
 .text-action:hover > svg:last-child {
   transform: translate(2px, -2px);
-}
-.share-message {
-  font-size: 12px;
-  color: var(--muted);
-  margin-top: 10px;
-  overflow-wrap: anywhere;
 }
 .archive {
   background: var(--paper);
@@ -831,10 +812,6 @@ video {
     width: min(78vw, 365px);
     margin-left: -3px;
   }
-  .hero-invitation {
-    font-size: 25px;
-    line-height: 1.2;
-  }
   .hero-actions {
     margin-top: 25px;
     gap: 20px;
@@ -942,16 +919,9 @@ video {
     display: block;
     margin-top: 12px;
   }
-  .inline-actions {
-    gap: 20px;
-    justify-content: space-between;
-  }
   .text-action {
     font-size: 11px;
     gap: 7px;
-  }
-  .broadcast-actions > .text-action {
-    margin-top: 5px;
   }
   .archive {
     padding-top: 58px;
@@ -1082,9 +1052,6 @@ video {
   .hero-logo {
     width: 80vw;
   }
-  .hero-invitation {
-    font-size: 23px;
-  }
 }
 @media (prefers-reduced-motion: reduce) {
   html {
@@ -1105,10 +1072,4 @@ video {
   .reveal.in-view {
     transform: none;
   }
-}
-
-.media-item.is-ident .media-thumbnail > img {
-  object-fit: contain;
-  padding: 12%;
-  filter: var(--logo-filter);
 }

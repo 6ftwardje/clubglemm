@@ -137,7 +137,7 @@ components:
 
 De poster voor de derde editie is de kleurreferentie: een warme beige ondergrond, donkere tekst en herkenbaar Glemm-rood. Grote vlakken blijven beige; rood verschijnt in kleine acties, de datum, actieve filters en hover-/focusdetails. De bestaande eenvoudige compositie, Urbanist/Open Sans en eigen eventfotografie blijven behouden.
 
-De pagina bevat hero → livestream → momenten → footer. De korte uitnodiging blijft “Een avond samen.” Het jurkverhaal, de tekstband en de afsluitende uitnodiging blijven verwijderd. De navbar bevat alleen een zichtbare menuknop; hero en footer gebruiken hetzelfde statische beeldmerk.
+De pagina bevat hero → livestream → foto’s → footer. De hero toont alleen het beeldmerk, de livestreamactie en datum. Het jurkverhaal, de tekstband en de afsluitende uitnodiging blijven verwijderd. De navbar bevat alleen een zichtbare menuknop; de hero gebruikt het geanimeerde beeldmerk als overlay en de footer het statische beeldmerk.
 
 ## Colors
 
@@ -157,13 +157,13 @@ De pagina bevat hero → livestream → momenten → footer. De korte uitnodigin
 
 ## Typography
 
-Urbanist voor titels en de korte hero-uitnodiging; Open Sans voor tekst, data en controls. Beide fonts zijn lokaal gehost (400–700). Sectietitels blijven kort: Livestream/Replay en Momenten. Media-namen en beschrijvingen zijn beschikbaar in de toegankelijke knopnaam en de viewer, zonder captions onder alle galerijbeelden.
+Urbanist voor titels; Open Sans voor tekst, data en controls. Beide fonts zijn lokaal gehost (400–700). Sectietitels blijven kort: Livestream/Replay en Foto’s. Media-namen en beschrijvingen zijn beschikbaar in de toegankelijke knopnaam en de viewer, zonder captions onder alle galerijbeelden.
 
-**The Identity Rule.** Behoud de originele logo- en animatiebronnen. Het witte PNG-logo krijgt donkere inkt via CSS. De originele animatie blijft beschikbaar in het media-archief; er staat geen logo in de navbar.
+**The Identity Rule.** Behoud de originele logo- en animatiebronnen. Het witte PNG-logo krijgt donkere inkt via CSS. De animatie wordt uitsluitend als hero-overlay gebruikt, met een statische fallback bij reduced-motion, databesparing of afspeelfouten; er staat geen logo in de navbar.
 
 ## Layout
 
-Behoud de huidige hero-posities, eigen fotografie en gedeelde zijmarge `gutter`. De hero-overlays gebruiken beige en zand. Geen nieuwe secties of decoratieve elementen toevoegen. Op desktop gebruikt de galerij twee kolommen; onder 700px één kolom. De header toont alleen Menu met een rood plusicoon, op een donkere knop met beige tekst. Op alle schermgroottes opent dezelfde kinetische navigatie met Home, Livestream/Replay en Momenten. Instagram en Contact verschijnen alleen met ingevulde gegevens.
+Behoud de huidige hero-posities, eigen fotografie en gedeelde zijmarge `gutter`. De hero-overlays gebruiken beige en zand. Geen nieuwe secties of decoratieve elementen toevoegen. Op desktop gebruikt de galerij twee kolommen; onder 700px één kolom. De header toont alleen Menu met een rood plusicoon, op een donkere knop met beige tekst. Op alle schermgroottes opent dezelfde kinetische navigatie met Home, Livestream/Replay en Foto’s. Instagram en Contact verschijnen alleen met ingevulde gegevens.
 
 De navbar heeft een volledig transparante achtergrond zonder onderrand en blijft bovenaan in beeld bij scrollen. De pagina behoudt haar oorspronkelijke positie onder de navbar. Ankerbestemmingen houden rekening met de hoogte van de navbar op desktop en mobiel.
 
@@ -179,11 +179,11 @@ Het archief toont eerst vier items, met Bekijk alles / Toon minder. Filters hers
 
 **The Flat Section Rule.** Gebruik kleurvlakken, fotografie en ruimte voor hiërarchie. De dialoog mag boven de pagina liggen omdat hij een eigen kijkmodus opent.
 
-Live vereist een bruikbare YouTube-link; zonder link blijft Livestream volgt zichtbaar. YouTube en Mux laden na een handeling. Datum, uur en locatie komen uit content.json. Voor de komende derde editie bevestigt de poster 7 oktober 2026, 21:00–03:00, Bar Jan Cremer, Kramersplein 6 in Gent. Instagram, livestream en ticketlink blijven onbevestigd.
+Live vereist een bruikbare YouTube-link; zonder link blijft Livestream volgt zichtbaar. YouTube en Mux laden na een handeling. Kalender- en deelacties zijn verwijderd; de datum, uren en locatie blijven zichtbaar. Datum, uur en locatie komen uit content.json. Voor de komende derde editie bevestigt de poster 7 oktober 2026, 21:00–03:00, Bar Jan Cremer, Kramersplein 6 in Gent. Instagram, livestream en ticketlink blijven onbevestigd.
 
 Het menu gebruikt zes bestaande WebP-thumbnails als volledige achtergrondbeelden op 13% opacity. De foto wisselt bij hover/focus per link en bij elke nieuwe opening; abstracte shapes zijn weggelaten. De thumbnails laden pas bij het openen. Het menu blokkeert achtergrondscroll en houdt focus binnen de navigatie. Escape, de sluitknop, klikken buiten het desktop-paneel en een link sluiten het. Een interne link herstelt scroll en verplaatst focus naar de bestemming; anders keert focus terug naar de menuknop. Reduced-motion toont de complete toestand direct. Snel omkeren onderbreekt de bestaande timeline vloeiend.
 
-De navbar heeft geen logo of automatisch afspelende video. De logoanimatie blijft als archiefvideo beschikbaar. Subtiele bestaande binnenkomsten en hoverbeweging blijven behouden; de eerder verwijderde tekstband blijft weg.
+De navbar heeft geen logo of automatisch afspelende video. De logoanimatie staat alleen in de hero; de galerij bevat 43 foto’s en gebruikt thumbnails met lazy loading. De filters verschijnen alleen wanneer er ook echte video’s zijn. Subtiele bestaande binnenkomsten en hoverbeweging blijven behouden; de eerder verwijderde tekstband blijft weg.
 
 ## Do's and Don'ts
 

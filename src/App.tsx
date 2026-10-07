@@ -3,16 +3,12 @@ import {
   ArrowDown,
   ArrowRight,
   ArrowUpRight,
-  CalendarDays,
-  Check,
   Play,
   Radio,
-  Share2,
 } from "lucide-react";
 import MediaDialog from "./components/MediaDialog";
 import KineticNavigation, { type NavigationLink } from "./components/ui/sterling-gate-kinetic-navigation";
 import {
-  downloadCalendar,
   externalUrl,
   longDate,
   parseContent,
@@ -107,7 +103,6 @@ function Broadcast({ content }: { content: Content }) {
   const { event } = content;
   const id = youtubeId(event.youtubeUrl);
   const [loadPlayer, setLoadPlayer] = useState(false);
-  const [shared, setShared] = useState("");
   const isLive = event.status === "live" && Boolean(id);
   const label = isLive
     ? "We zijn live"
@@ -119,25 +114,6 @@ function Broadcast({ content }: { content: Content }) {
   useEffect(() => {
     setLoadPlayer(false);
   }, [id]);
-
-  async function share() {
-    const url = `${window.location.origin}${window.location.pathname}#live`;
-    try {
-      if (navigator.share)
-        await navigator.share({
-          title: "Club Glemm",
-          text: `Club Glemm — ${date}.`,
-          url,
-        });
-      else {
-        await navigator.clipboard.writeText(url);
-        setShared("Link gekopieerd");
-      }
-    } catch (error) {
-      if (!(error instanceof DOMException && error.name === "AbortError"))
-        setShared(`Deel deze link: ${url}`);
-    }
-  }
 
   return (
     <section
@@ -213,26 +189,8 @@ function Broadcast({ content }: { content: Content }) {
           </div>
         )}
       </div>
-      <div className="broadcast-actions">
-        <div className="inline-actions">
-          <button
-            className="text-action"
-            onClick={() => downloadCalendar(event)}
-          >
-            <CalendarDays size={18} />
-            Bewaar de datum
-            <ArrowUpRight size={16} />
-          </button>
-          <button className="text-action" onClick={share}>
-            {shared === "Link gekopieerd" ? (
-              <Check size={18} />
-            ) : (
-              <Share2 size={18} />
-            )}
-            Delen
-          </button>
-        </div>
-        {id ? (
+      {id && (
+        <div className="broadcast-actions">
           <a
             className="text-action"
             href={`https://www.youtube.com/watch?v=${id}`}
@@ -242,12 +200,7 @@ function Broadcast({ content }: { content: Content }) {
             {event.status === "ended" ? "Bekijk op YouTube" : "Open op YouTube"}
             <ArrowUpRight size={17} />
           </a>
-        ) : null}
-      </div>
-      {shared && (
-        <p className="share-message" role="status">
-          {shared}
-        </p>
+        </div>
       )}
     </section>
   );
@@ -278,45 +231,47 @@ function MediaArchive({ content }: { content: Content }) {
 
   return (
     <section
-      id="momenten"
+      id="fotos"
       tabIndex={-1}
       className="archive section-pad"
       aria-labelledby="archive-heading"
     >
       <div className="section-heading reveal">
         <div>
-          <h2 id="archive-heading">Momenten</h2>
+          <h2 id="archive-heading">Foto’s</h2>
         </div>
-        <div
-          className="media-filters"
-          role="group"
-          aria-label="Filter momenten"
-        >
-          {(
-            [
-              ["all", "Alles"],
-              ["photo", "Foto’s"],
-              ["video", "Video’s"],
-            ] as const
-          ).map(([value, label]) => (
-            <button
-              key={value}
-              aria-pressed={filter === value}
-              className={filter === value ? "active" : ""}
-              onClick={() => {
-                setFilter(value);
-                setExpanded(false);
-              }}
-            >
-              {label}
-            </button>
-          ))}
-        </div>
+        {items.some((item) => item.type === "video") && (
+          <div
+            className="media-filters"
+            role="group"
+            aria-label="Filter foto’s en video’s"
+          >
+            {(
+              [
+                ["all", "Alles"],
+                ["photo", "Foto’s"],
+                ["video", "Video’s"],
+              ] as const
+            ).map(([value, label]) => (
+              <button
+                key={value}
+                aria-pressed={filter === value}
+                className={filter === value ? "active" : ""}
+                onClick={() => {
+                  setFilter(value);
+                  setExpanded(false);
+                }}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
       <div id="archive-items" className={`media-layout ${visible.length > 1 ? "has-many" : ""}`}>
         {displayed.map((item) => (
           <button
-            className={`media-item ${item.id === "glemm-ident" ? "is-ident" : ""}`}
+            className="media-item"
             key={item.id}
             onClick={(event) => {
               opener.current = event.currentTarget;
@@ -357,7 +312,7 @@ function MediaArchive({ content }: { content: Content }) {
         {visible.length === 0 &&
           !(photos.length === 0 && filter !== "video") && (
             <div className="empty-media">
-              <h3>{filter === "video" ? "Video’s" : "Momenten"} volgen.</h3>
+              <h3>{filter === "video" ? "Video’s" : "Foto’s"} volgen.</h3>
             </div>
           )}
       </div>
@@ -454,7 +409,7 @@ export default function App() {
   const navigationLinks: NavigationLink[] = [
     { label: "Home", href: "#top" },
     { label: content.event.status === "ended" ? "Replay" : "Livestream", href: "#live" },
-    { label: "Momenten", href: "#momenten" },
+    { label: "Foto’s", href: "#fotos" },
     ...(instagram ? [{ label: "Instagram", href: instagram, external: true }] : []),
     ...(content.brand.contactEmail ? [{ label: "Contact", href: "mailto:" + content.brand.contactEmail }] : []),
   ];
@@ -489,11 +444,8 @@ export default function App() {
           <div className="hero-shade" />
           <div className="hero-content">
             <h1 className="hero-brand">
-              <BrandLogo className="hero-logo" />
+              <BrandLogo className="hero-logo" animated />
             </h1>
-            <p className="hero-invitation">
-              Een avond samen.
-            </p>
             <div className="hero-actions">
               <a className="button button-accent" href="#live">
                 {liveAction}
@@ -533,7 +485,7 @@ export default function App() {
         </a>
         <div className="footer-links">
           <a href="#live">Livestream</a>
-          <a href="#momenten">Momenten</a>
+          <a href="#fotos">Foto’s</a>
           {instagram && (
             <a href={instagram} target="_blank" rel="noopener noreferrer">
               Instagram

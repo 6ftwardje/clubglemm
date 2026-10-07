@@ -61,7 +61,7 @@ Zet geoptimaliseerde foto's in `public/media/`. Voeg objecten aan `media` in `pu
 
 De galerie ondersteunt vorige/volgende foto, pijltjestoetsen en Escape. Publiceer foto’s liefst als WebP/AVIF/JPEG, circa 1200–1800px langste zijde. Een CMS is een volgende fase; nu is dit de eenvoudige publicatieroute.
 
-De hero en acht archieffoto’s gebruiken jullie eigen foto’s uit `Assets/Fotos`. De browserbestanden staan in `public/media/photos`; de originelen blijven behouden. `hero.image` / `hero.alt` bepalen de opening. Het verhaalblok is verwijderd; bestaande story-gegevens worden niet meer getoond. Het archief toont eerst vier items; de bezoeker kan de volledige selectie openen. Een optioneel `poster` met een kleine thumbnail houdt de mobiele download beperkt.
+De hero en acht bestaande archieffoto’s gebruiken jullie eigen foto’s uit `Assets/Fotos`. Daarnaast zijn alle 35 WhatsApp-foto’s uit de Downloads-reeks van 7 oktober 2026 toegevoegd, met lokale originelen in `Assets/Fotos/WhatsApp 2026-10-07` en WebP-versies van maximaal 1600px plus thumbnails van maximaal 720px. De browserbestanden staan in `public/media/photos`; de originelen blijven behouden. `hero.image` / `hero.alt` bepalen de opening. Het verhaalblok is verwijderd; bestaande story-gegevens worden niet meer getoond. Het archief toont eerst vier items; de bezoeker kan de volledige selectie openen. Een optioneel `poster` met een kleine thumbnail houdt de mobiele download beperkt.
 
 ## Mux-video’s publiceren
 
@@ -91,13 +91,13 @@ Gebruik nooit `VITE_MUX_TOKEN_SECRET`: alle `VITE_`-waarden zijn publiek. Automa
 - `DESIGN.md`: de gerealiseerde ontwerpafspraken.
 - `docs/asset-sources.json`: herkomst van beelden en fonts.
 
-De originele assets blijven in `Assets/`. De website gebruikt alleen geoptimaliseerde versies uit `public/media/`: de 5s logoanimatie is circa 44 KB in plaats van de circa 439 MB MOV. De animatie blijft als video in het archief beschikbaar. De navbar bevat alleen een vaste donkere menuknop.
+De originele assets blijven in `Assets/`. De website gebruikt alleen geoptimaliseerde versies uit `public/media/`: de 5s logoanimatie is circa 44 KB in plaats van de circa 439 MB MOV. De animatie wordt alleen als overlay op de hero gebruikt; bij reduced-motion, databesparing of een afspeelfout blijft het statische logo zichtbaar. Ze is geen galerij-item. De navbar bevat alleen een vaste donkere menuknop.
 
 ## Kinetisch navigatiemenu
 
 De aangeleverde React-component staat in src/components/ui/sterling-gate-kinetic-navigation.tsx. GSAP en CustomEase sturen de beige schuifpanelen en tekstanimatie; kinetic-navigation.css sluit aan op de bestaande stijlen. Deze component gebruikt gewone CSS-klassen en heeft geen Tailwind- of shadcn-runtime nodig.
 
-De navigatie gebruikt Home, Livestream/Replay en Momenten, plus ingevulde Instagram-/contactgegevens. Zes foto-thumbnails uit content.json verschijnen op 13% opacity, telkens verschillend per link en bij opnieuw openen. Foto’s laden pas zodra het menu opengaat. Toetsenbordfocus, Escape, scrollblokkering en reduced-motion worden ondersteund.
+De navigatie gebruikt Home, Livestream/Replay en Foto’s, plus ingevulde Instagram-/contactgegevens. Zes foto-thumbnails uit content.json verschijnen op 13% opacity, telkens verschillend per link en bij opnieuw openen. Foto’s laden pas zodra het menu opengaat. Toetsenbordfocus, Escape, scrollblokkering en reduced-motion worden ondersteund.
 
 ## Publicatie
 

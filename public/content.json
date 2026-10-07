@@ -37,17 +37,6 @@
       "alt": "Een champagne-emmer wordt boven een volle dansvloer gehouden."
     },
     {
-      "id": "glemm-ident",
-      "type": "video",
-      "provider": "local",
-      "title": "Glemm in beweging.",
-      "subtitle": "Onze identiteit, in vijf seconden.",
-      "src": "/media/glemm-logo-animation.mp4",
-      "poster": "/media/glemm-logo-white.png",
-      "duration": "0:05",
-      "alt": "Het Club Glemm-beeldmerk als korte logo-animatie."
-    },
-    {
       "id": "photo-samen",
       "type": "photo",
       "title": "Samen is het mooist.",
@@ -94,6 +83,286 @@
       "src": "/media/photos/discobal.webp",
       "poster": "/media/photos/discobal-thumb.webp",
       "alt": "Gasten dansen naast een grote spiegelende discobal."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-01",
+      "type": "photo",
+      "title": "Club Glemm · foto 09",
+      "src": "/media/photos/whatsapp-2026-10-07-01.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-01-thumb.webp",
+      "alt": "Een gast met een pet maakt een handgebaar tussen de dansende gasten."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-02",
+      "type": "photo",
+      "title": "Club Glemm · foto 10",
+      "src": "/media/photos/whatsapp-2026-10-07-02.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-02-thumb.webp",
+      "alt": "Gasten dansen met hun handen omhoog op een volle dansvloer."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-03",
+      "type": "photo",
+      "title": "Club Glemm · foto 11",
+      "src": "/media/photos/whatsapp-2026-10-07-03.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-03-thumb.webp",
+      "alt": "Een lachende gast met een bril, zwart pak en witte blouse."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-04",
+      "type": "photo",
+      "title": "Club Glemm · foto 12",
+      "src": "/media/photos/whatsapp-2026-10-07-04.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-04-thumb.webp",
+      "alt": "Gasten dansen naast de dj-booth onder rode en blauwe verlichting."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-05",
+      "type": "photo",
+      "title": "Club Glemm · foto 13",
+      "src": "/media/photos/whatsapp-2026-10-07-05.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-05-thumb.webp",
+      "alt": "Lachende gasten houden een champagne-emmer boven de dansvloer."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-06",
+      "type": "photo",
+      "title": "Club Glemm · foto 14",
+      "src": "/media/photos/whatsapp-2026-10-07-06.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-06-thumb.webp",
+      "alt": "Twee gasten met witte overhemden staan tussen het publiek."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-07",
+      "type": "photo",
+      "title": "Club Glemm · foto 15",
+      "src": "/media/photos/whatsapp-2026-10-07-07.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-07-thumb.webp",
+      "alt": "Gasten dansen dicht bij elkaar met geheven handen."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-08",
+      "type": "photo",
+      "title": "Club Glemm · foto 16",
+      "src": "/media/photos/whatsapp-2026-10-07-08.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-08-thumb.webp",
+      "alt": "Twee lachende gasten poseren met een glas op de dansvloer."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-09",
+      "type": "photo",
+      "title": "Club Glemm · foto 17",
+      "src": "/media/photos/whatsapp-2026-10-07-09.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-09-thumb.webp",
+      "alt": "Een dj met een zwarte pet en koptelefoon naast een dansende gast."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-10",
+      "type": "photo",
+      "title": "Club Glemm · foto 18",
+      "src": "/media/photos/whatsapp-2026-10-07-10.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-10-thumb.webp",
+      "alt": "Een gast en de dj staan bij de dj-booth onder rode verlichting."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-11",
+      "type": "photo",
+      "title": "Club Glemm · foto 19",
+      "src": "/media/photos/whatsapp-2026-10-07-11.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-11-thumb.webp",
+      "alt": "De dj met een zwarte pet en koptelefoon staat tussen de gasten."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-12",
+      "type": "photo",
+      "title": "Club Glemm · foto 20",
+      "src": "/media/photos/whatsapp-2026-10-07-12.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-12-thumb.webp",
+      "alt": "Gasten dansen en lachen achter de dj-booth."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-13",
+      "type": "photo",
+      "title": "Club Glemm · foto 21",
+      "src": "/media/photos/whatsapp-2026-10-07-13.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-13-thumb.webp",
+      "alt": "Gasten dansen naast de dj-booth in paars licht."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-14",
+      "type": "photo",
+      "title": "Club Glemm · foto 22",
+      "src": "/media/photos/whatsapp-2026-10-07-14.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-14-thumb.webp",
+      "alt": "Gasten staan dicht bij elkaar rond de dj met een zwarte pet."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-15",
+      "type": "photo",
+      "title": "Club Glemm · foto 23",
+      "src": "/media/photos/whatsapp-2026-10-07-15.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-15-thumb.webp",
+      "alt": "Twee lachende gasten met een zonnebril en een witte top poseren samen."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-16",
+      "type": "photo",
+      "title": "Club Glemm · foto 24",
+      "src": "/media/photos/whatsapp-2026-10-07-16.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-16-thumb.webp",
+      "alt": "Een gast houdt een telefoon omhoog tussen de dansende gasten."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-17",
+      "type": "photo",
+      "title": "Club Glemm · foto 25",
+      "src": "/media/photos/whatsapp-2026-10-07-17.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-17-thumb.webp",
+      "alt": "Twee gasten met petten zingen samen naast de dj-booth."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-18",
+      "type": "photo",
+      "title": "Club Glemm · foto 26",
+      "src": "/media/photos/whatsapp-2026-10-07-18.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-18-thumb.webp",
+      "alt": "Een gast in een wit overhemd reikt naar voren op de dansvloer."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-19",
+      "type": "photo",
+      "title": "Club Glemm · foto 27",
+      "src": "/media/photos/whatsapp-2026-10-07-19.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-19-thumb.webp",
+      "alt": "Twee gasten geven elkaar een kus op de dansvloer."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-20",
+      "type": "photo",
+      "title": "Club Glemm · foto 28",
+      "src": "/media/photos/whatsapp-2026-10-07-20.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-20-thumb.webp",
+      "alt": "De dj met een koptelefoon staat naast een gast met een geheven arm."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-21",
+      "type": "photo",
+      "title": "Club Glemm · foto 29",
+      "src": "/media/photos/whatsapp-2026-10-07-21.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-21-thumb.webp",
+      "alt": "Twee gasten met zwarte petten staan bij de dj-booth."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-22",
+      "type": "photo",
+      "title": "Club Glemm · foto 30",
+      "src": "/media/photos/whatsapp-2026-10-07-22.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-22-thumb.webp",
+      "alt": "De dj met een zwarte pet en koptelefoon bekijkt de mengtafel."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-23",
+      "type": "photo",
+      "title": "Club Glemm · foto 31",
+      "src": "/media/photos/whatsapp-2026-10-07-23.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-23-thumb.webp",
+      "alt": "Gasten genieten met een drankje van de muziek op de dansvloer."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-24",
+      "type": "photo",
+      "title": "Club Glemm · foto 32",
+      "src": "/media/photos/whatsapp-2026-10-07-24.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-24-thumb.webp",
+      "alt": "Een volle dansvloer met lachende gasten en geheven handen."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-25",
+      "type": "photo",
+      "title": "Club Glemm · foto 33",
+      "src": "/media/photos/whatsapp-2026-10-07-25.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-25-thumb.webp",
+      "alt": "Gasten dansen naast de dj-booth in paars en rood licht."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-26",
+      "type": "photo",
+      "title": "Club Glemm · foto 34",
+      "src": "/media/photos/whatsapp-2026-10-07-26.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-26-thumb.webp",
+      "alt": "Een gast met een bril en een zwart pak houdt een glas omhoog."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-27",
+      "type": "photo",
+      "title": "Club Glemm · foto 35",
+      "src": "/media/photos/whatsapp-2026-10-07-27.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-27-thumb.webp",
+      "alt": "Een gast houdt een glas naar voren onder rode verlichting."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-28",
+      "type": "photo",
+      "title": "Club Glemm · foto 36",
+      "src": "/media/photos/whatsapp-2026-10-07-28.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-28-thumb.webp",
+      "alt": "Twee gasten met petten staan samen achter de dj-booth."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-29",
+      "type": "photo",
+      "title": "Club Glemm · foto 37",
+      "src": "/media/photos/whatsapp-2026-10-07-29.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-29-thumb.webp",
+      "alt": "Een volle dansvloer onder rode verlichting en een discobal."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-30",
+      "type": "photo",
+      "title": "Club Glemm · foto 38",
+      "src": "/media/photos/whatsapp-2026-10-07-30.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-30-thumb.webp",
+      "alt": "Een gast houdt een champagne-emmer boven het dansende publiek."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-31",
+      "type": "photo",
+      "title": "Club Glemm · foto 39",
+      "src": "/media/photos/whatsapp-2026-10-07-31.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-31-thumb.webp",
+      "alt": "Een gast met krullend haar kijkt omhoog op de dansvloer."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-32",
+      "type": "photo",
+      "title": "Club Glemm · foto 40",
+      "src": "/media/photos/whatsapp-2026-10-07-32.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-32-thumb.webp",
+      "alt": "Een gast en de dj staan achter een verlichte mengtafel."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-33",
+      "type": "photo",
+      "title": "Club Glemm · foto 41",
+      "src": "/media/photos/whatsapp-2026-10-07-33.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-33-thumb.webp",
+      "alt": "De dj bedient de verlichte mengtafel, gezien van achteren."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-34",
+      "type": "photo",
+      "title": "Club Glemm · foto 42",
+      "src": "/media/photos/whatsapp-2026-10-07-34.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-34-thumb.webp",
+      "alt": "Een gast met een bril staat tussen het publiek onder rode verlichting."
+    },
+    {
+      "id": "photo-whatsapp-2026-10-07-35",
+      "type": "photo",
+      "title": "Club Glemm · foto 43",
+      "src": "/media/photos/whatsapp-2026-10-07-35.webp",
+      "poster": "/media/photos/whatsapp-2026-10-07-35-thumb.webp",
+      "alt": "Een lachende gast in een zwart pak houdt een glas bij zijn voorhoofd."
     }
   ],
   "story": {

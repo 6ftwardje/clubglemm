@@ -108,3 +108,12 @@ De vervolgbeoordeling scoort alle drie als opgelost: het navigatiecontrast meet 
 - clubglemm.com en www.clubglemm.com zijn gekoppeld. De web-A-records bij Combell wijzen naar 75.2.60.5 met TTL 300; nameservers, FTP en e-mailrecords zijn behouden. Alle drie Combell-nameservers en resolver 1.1.1.1 geven het nieuwe webadres terug.
 - https://clubglemm.com geeft HTTP 200 met geldig TLS; HTTPS is ook bevestigd in Netlify met een automatisch vernieuwd Let’s Encrypt-certificaat voor beide namen. www en HTTP geven 301 naar https://clubglemm.com/.
 - Productie gebruikt exact de lokaal gecontroleerde JS- en CSS-assets. De publieke contentconfiguratie bevat de derde editie en 9 media-items. De site is in de browser op het eigen domein geladen en visueel bevestigd.
+
+## Contentaanpassing 7 oktober 2026
+
+- Logoanimatie verwijderd uit de galerij en uitsluitend als hero-overlay ingeschakeld: gedempt, inline en op loop. Browser bevestigt 5 seconden duur en werkend afspelen. Reduced-motion pauzeert en toont het statische logo; uitschakelen hervat de animatie.
+- “Een avond samen.”, Bewaar de datum en Delen verwijderd, inclusief metadatatekst en ongebruikte kalender-/deelcode. Datum, uren en locatie blijven zichtbaar. Sectie, menu en footer heten Foto’s; interne links gebruiken #fotos.
+- Alle 35 recent toegevoegde WhatsApp-foto’s uit Downloads van 7 oktober toegevoegd; totaal 43 foto’s. Originelen lokaal behouden. Nieuwe full-size WebP-bestanden samen 3,45 MB, thumbnails 0,78 MB tegenover 9,39 MB JPEG-originelen. Herkomst en concrete alt-teksten vastgelegd.
+- npm run check:content en npm run build geslaagd; alle lokale bestanden bestaan. De bestaande waarschuwing voor de apart geladen Mux-playerchunk blijft.
+- Browser op 320, 390, 768 en 1440px zonder horizontale overflow of pageerrors. Alle 43 items na Bekijk alles; nieuwste foto op desktop en nieuwe foto op mobiel geopend. Volgende/vorige, wrap van 43 naar 1, pijltjestoetsen, Escape en focusherstel werken. Menu-link Foto’s sluit het menu en focust #fotos.
+- Screenshots: output/playwright/content-desktop.png, content-mobile.png en content-new-photo-desktop/mobile.png. De mechanische detector meldt alleen bestaande adviespunten rond typografiestappen en controlradii; deze wijziging voegt geen nieuwe visuele tokens toe.

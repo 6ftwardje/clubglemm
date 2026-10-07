@@ -87,6 +87,286 @@
       "origin": "Urbanist, Google Fonts, locally hosted Latin variable webfont. Selected by the user in the typography reference.",
       "sourceUrl": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS1miXK2.woff2",
       "license": "SIL Open Font License 1.1"
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-01.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.49.jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-01-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.49.jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-02.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (1).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-02-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (1).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-03.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (2).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-03-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (2).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-04.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (3).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-04-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (3).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-05.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (4).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-05-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (4).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-06.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (5).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-06-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (5).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-07.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (6).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-07-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (6).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-08.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (7).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-08-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (7).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-09.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (8).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-09-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (8).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-10.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (9).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-10-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50 (9).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-11.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50.jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-11-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.50.jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-12.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (1).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-12-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (1).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-13.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (2).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-13-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (2).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-14.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (3).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-14-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (3).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-15.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (4).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-15-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (4).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-16.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (5).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-16-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (5).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-17.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (6).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-17-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (6).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-18.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (7).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-18-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (7).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-19.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (8).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-19-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (8).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-20.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (9).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-20-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (9).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-21.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (10).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-21-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (10).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-22.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (11).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-22-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (11).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-23.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (12).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-23-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (12).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-24.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (13).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-24-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (13).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-25.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (14).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-25-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (14).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-26.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (15).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-26-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (15).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-27.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (16).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-27-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (16).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-28.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (17).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-28-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (17).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-29.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (18).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-29-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51 (18).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-30.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51.jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-30-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.51.jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-31.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.52 (1).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-31-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.52 (1).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-32.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.52 (2).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-32-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.52 (2).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-33.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.52 (3).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-33-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.52 (3).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-34.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.52 (4).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-34-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.52 (4).jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-35.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.52.jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/whatsapp-2026-10-07-35-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp 2026-10-07/WhatsApp Image 2026-10-07 at 17.47.52.jpeg, imported from Downloads on 7 October 2026. EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
     }
   ]
 }

@@ -41,3 +41,5 @@ Preserve the supplied white logo and logo animation. Use the supplied poster as 
 - Use real Glemm assets; clearly distinguish illustrative imagery from event documentation.
 
 The latest 7 October request removes the navbar logo and date action. Keep one clearly visible sticky Menu button. Publish the website to 6ftwardje/clubglemm on GitHub, deploy through Netlify and connect clubglemm.com using its existing Combell DNS.
+
+De nieuwste contentaanpassing van 7 oktober gebruikt de logoanimatie uitsluitend als overlay in de hero, met een statische fallback. De animatie is verwijderd uit de galerij. De hero-uitnodiging en kalender-/deelacties zijn verwijderd; de eventdatum blijft zichtbaar. Momenten heet nu Foto’s in de sectie en navigatie. Alle 35 recent toegevoegde WhatsApp-foto’s van 7 oktober uit Downloads zijn toegevoegd naast de acht bestaande foto’s, met WebP-bestanden en thumbnails.

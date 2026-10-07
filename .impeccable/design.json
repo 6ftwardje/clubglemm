@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-07T17:13:23.128014+00:00",
+  "generatedAt": "2026-10-07T18:13:04.467734+00:00",
   "title": "Design System: Club Glemm",
   "extensions": {
     "colorMeta": {
@@ -222,7 +222,7 @@
   ],
   "narrative": {
     "northStar": "Beige event poster",
-    "overview": "De aangeleverde poster voor de derde editie bepaalt de kleuren: beige, donkere inkt en beperkt Glemm-rood. De eenvoudige compositie, eigen fotografie en fonts blijven behouden. Alleen opening, livestream en momenten blijven. De navbar bevat alleen een vaste donkere menuknop met beige tekst en rode plus; logo en datumactie zijn verwijderd. Hero en footer gebruiken het statische logo. De header opent het aangeleverde kinetische menu: beige schuifpanelen, grote links en zes echte Glemm-foto’s op 13% opacity. Hover, focus en heropenen wisselen de foto. Het menu gebruikt GSAP met beschermde focus en directe toestanden bij reduced-motion. De navbar is volledig transparant zonder onderrand en blijft bovenaan tijdens scrollen; ankerafstanden houden rekening met haar hoogte.",
+    "overview": "De aangeleverde poster voor de derde editie bepaalt de kleuren: beige, donkere inkt en beperkt Glemm-rood. De eenvoudige compositie, eigen fotografie en fonts blijven behouden. Alleen opening, livestream en foto’s blijven. De navbar bevat alleen een vaste donkere menuknop met beige tekst en rode plus; logo en datumactie zijn verwijderd. De hero gebruikt de logoanimatie als overlay met een statische fallback; de footer gebruikt het statische logo. De hero-uitnodiging en kalender-/deelacties zijn verwijderd. De galerij bevat 43 foto’s, met 35 nieuwe WhatsApp-foto’s naast de acht bestaande foto’s; de navigatie en sectie heten Foto’s. De header opent het aangeleverde kinetische menu: beige schuifpanelen, grote links en zes echte Glemm-foto’s op 13% opacity. Hover, focus en heropenen wisselen de foto. Het menu gebruikt GSAP met beschermde focus en directe toestanden bij reduced-motion. De navbar is volledig transparant zonder onderrand en blijft bovenaan tijdens scrollen; ankerafstanden houden rekening met haar hoogte.",
     "keyCharacteristics": [
       "Beige en zand op de grote vlakken.",
       "Donkere inkt en leesbare warme secundaire tekst.",
@@ -238,7 +238,7 @@
       },
       {
         "name": "The Identity Rule",
-        "body": "Behoud originele merkbestanden. Het PNG-logo krijgt donkere inkt via CSS; de navbar-ident gebruikt grayscale/invert en multiply.",
+        "body": "Behoud originele merkbestanden. Het PNG-logo krijgt donkere inkt via CSS; de hero-overlay gebruikt grayscale/invert en multiply. De animatie staat uitsluitend in de hero en gebruikt een statische fallback bij reduced-motion, databesparing en afspeelfouten.",
         "section": "typography"
       },
       {

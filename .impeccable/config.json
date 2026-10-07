@@ -1,0 +1,21 @@
+{
+  "buildPath": "code",
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "space grotesk",
+        "createdAt": "2026-10-06T19:20:55.728Z",
+        "reason": "Agent design decision: DESIGN.md Identity Rule and docs/homepage-direction.md retain Space Grotesk for readable utility text; the supplied custom Glemm logo provides the distinctive primary identity."
+      },
+      {
+        "rule": "overused-font",
+        "value": "open sans",
+        "createdAt": "2026-10-06T19:58:11.294Z",
+        "reason": "User confirmed Open Sans: explicitly requested the Urbanist and Open Sans pairing shown in the attached typography reference on 6 October 2026; Urbanist headings and Open Sans body copy are recorded in DESIGN.md."
+      }
+    ]
+  }
+}

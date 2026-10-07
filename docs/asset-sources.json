@@ -1,0 +1,92 @@
+{
+  "assets": [
+    {
+      "path": "public/media/glemm-logo-white.png",
+      "origin": "User-supplied Assets/glèmm_logo_white.png, resized to 960px with sips; original preserved."
+    },
+    {
+      "path": "public/media/glemm-logo-animation.mp4",
+      "origin": "User-supplied Assets/glemm logo.mov, H.264 960px browser derivative, silent, 5 seconds; original preserved."
+    },
+    {
+      "path": "public/media/photos/champagne.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp Image 2026-02-19 at 15.41.13.jpeg. Browser derivative, EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/champagne-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp Image 2026-02-19 at 15.41.13.jpeg. Browser derivative, EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/dansvloer.webp",
+      "origin": "User-supplied Assets/Fotos/DSC_0255.jpg. Browser derivative, EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/dansvloer-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/DSC_0255.jpg. Browser derivative, EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/handen-omhoog.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp Image 2026-02-19 at 15.41.13 (1).jpeg. Browser derivative, EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/handen-omhoog-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp Image 2026-02-19 at 15.41.13 (1).jpeg. Browser derivative, EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/rond-de-dj.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp Image 2026-02-28 at 01.09.57 (3).jpeg. Browser derivative, EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/rond-de-dj-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp Image 2026-02-28 at 01.09.57 (3).jpeg. Browser derivative, EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/nog-een-nummer.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp Image 2026-02-28 at 01.09.57 (6).jpeg. Browser derivative, EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/nog-een-nummer-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp Image 2026-02-28 at 01.09.57 (6).jpeg. Browser derivative, EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/die-glimlach.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp Image 2026-02-28 at 01.09.58 (3).jpeg. Browser derivative, EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/die-glimlach-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp Image 2026-02-28 at 01.09.58 (3).jpeg. Browser derivative, EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/discobal.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp Image 2026-02-28 at 01.09.58 (4).jpeg. Browser derivative, EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/discobal-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/WhatsApp Image 2026-02-28 at 01.09.58 (4).jpeg. Browser derivative, EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/samen.webp",
+      "origin": "User-supplied Assets/Fotos/b0ccf077-bd90-4b2e-a6d3-4c4e8f27eb4f.JPG. Browser derivative, EXIF orientation applied, resized to max 1600px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/samen-thumb.webp",
+      "origin": "User-supplied Assets/Fotos/b0ccf077-bd90-4b2e-a6d3-4c4e8f27eb4f.JPG. Browser derivative, EXIF orientation applied, resized to max 720px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/media/photos/bar-jan-cremer.webp",
+      "origin": "User-supplied Assets/Fotos/DSC_0298.jpg. Browser derivative, EXIF orientation applied, resized to max 1000px and encoded WebP; original preserved."
+    },
+    {
+      "path": "public/fonts/open-sans-latin.woff2",
+      "origin": "Open Sans, Google Fonts, locally hosted Latin variable webfont. Selected by the user in the typography reference.",
+      "sourceUrl": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+      "license": "SIL Open Font License 1.1"
+    },
+    {
+      "path": "public/fonts/urbanist-latin.woff2",
+      "origin": "Urbanist, Google Fonts, locally hosted Latin variable webfont. Selected by the user in the typography reference.",
+      "sourceUrl": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS1miXK2.woff2",
+      "license": "SIL Open Font License 1.1"
+    }
+  ]
+}

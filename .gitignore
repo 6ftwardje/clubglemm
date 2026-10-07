@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+.playwright-cli/
+output/playwright/
+.impeccable/review/
+*.tsbuildinfo
+# Original media stay local; optimized web derivatives are versioned.
+Assets/
+.netlify/
+output/
+.impeccable/hook.cache.json
+.impeccable/config.local.json

@@ -1,0 +1,104 @@
+{
+  "brand": {
+    "name": "Club Glemm",
+    "instagramUrl": "",
+    "contactEmail": ""
+  },
+  "event": {
+    "title": "Glemm — derde editie",
+    "date": "2026-10-07",
+    "startTime": "21:00",
+    "endTime": "03:00",
+    "location": "Bar Jan Cremer · Kramersplein 6, Gent",
+    "status": "scheduled",
+    "youtubeUrl": "",
+    "ticketUrl": ""
+  },
+  "hero": {
+    "image": "/media/photos/champagne.webp",
+    "alt": "Vrouwen en andere gasten vieren samen Club Glemm, met een champagne-emmer boven de dansvloer.",
+    "isPlaceholder": false
+  },
+  "media": [
+    {
+      "id": "photo-die-glimlach",
+      "type": "photo",
+      "title": "Die glimlach zegt alles.",
+      "src": "/media/photos/die-glimlach.webp",
+      "poster": "/media/photos/die-glimlach-thumb.webp",
+      "alt": "Een lachende gast op de dansvloer in paars licht."
+    },
+    {
+      "id": "photo-champagne",
+      "type": "photo",
+      "title": "Een toast op jullie.",
+      "src": "/media/photos/champagne.webp",
+      "poster": "/media/photos/champagne-thumb.webp",
+      "alt": "Een champagne-emmer wordt boven een volle dansvloer gehouden."
+    },
+    {
+      "id": "glemm-ident",
+      "type": "video",
+      "provider": "local",
+      "title": "Glemm in beweging.",
+      "subtitle": "Onze identiteit, in vijf seconden.",
+      "src": "/media/glemm-logo-animation.mp4",
+      "poster": "/media/glemm-logo-white.png",
+      "duration": "0:05",
+      "alt": "Het Club Glemm-beeldmerk als korte logo-animatie."
+    },
+    {
+      "id": "photo-samen",
+      "type": "photo",
+      "title": "Samen is het mooist.",
+      "src": "/media/photos/samen.webp",
+      "poster": "/media/photos/samen-thumb.webp",
+      "alt": "Een groep gasten geniet samen van een volle Club Glemm-dansvloer."
+    },
+    {
+      "id": "photo-dansvloer",
+      "type": "photo",
+      "title": "Midden in Glemm.",
+      "src": "/media/photos/dansvloer.webp",
+      "poster": "/media/photos/dansvloer-thumb.webp",
+      "alt": "Gasten dansen dicht bij elkaar rond de bar tijdens Club Glemm."
+    },
+    {
+      "id": "photo-handen-omhoog",
+      "type": "photo",
+      "title": "Handen omhoog.",
+      "src": "/media/photos/handen-omhoog.webp",
+      "poster": "/media/photos/handen-omhoog-thumb.webp",
+      "alt": "Gasten steken hun handen omhoog naast de dj-booth."
+    },
+    {
+      "id": "photo-rond-de-dj",
+      "type": "photo",
+      "title": "Rond de dj.",
+      "src": "/media/photos/rond-de-dj.webp",
+      "poster": "/media/photos/rond-de-dj-thumb.webp",
+      "alt": "De dj staat midden tussen dansende gasten tijdens Club Glemm."
+    },
+    {
+      "id": "photo-nog-een-nummer",
+      "type": "photo",
+      "title": "Nog één dansje.",
+      "src": "/media/photos/nog-een-nummer.webp",
+      "poster": "/media/photos/nog-een-nummer-thumb.webp",
+      "alt": "Een volle dansvloer met geheven handen in roze en paars licht."
+    },
+    {
+      "id": "photo-discobal",
+      "type": "photo",
+      "title": "Onder de discobal.",
+      "src": "/media/photos/discobal.webp",
+      "poster": "/media/photos/discobal-thumb.webp",
+      "alt": "Gasten dansen naast een grote spiegelende discobal."
+    }
+  ],
+  "story": {
+    "image": "/media/photos/bar-jan-cremer.webp",
+    "alt": "De gevel en ingang van Bar Jan Cremer bij een avond in Gent.",
+    "caption": "Bar Jan Cremer. Waar het begon."
+  }
+}
